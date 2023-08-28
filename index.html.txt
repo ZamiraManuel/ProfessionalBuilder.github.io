@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Resume Generator!</h1>
+    </header>
+    <main>
+        <form action="/select_career" method="post">
+            <label for="career">Choose a Career:</label>
+            <select name="career" id="career">
+                <option value="Accounting">Accounting</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Business">Business</option>
+                <option value="Architecture">Architecture</option>
+                <option value="Art">Art</option>
+                <!-- Add more options for other careers -->
+            </select>
+            <button type="submit">Continue</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Resume Generator</p>
+    </footer>
+</body>
+</html>
